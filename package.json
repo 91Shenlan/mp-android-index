@@ -1,0 +1,25 @@
+{
+  "name": "mp_android_index",
+  "version": "0.0.1",
+  "description": "a tool for generate article index.",
+  "main": "index.js",
+  "scripts": {
+    "tool": "ts-node scripts/tool/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuanghongji/mp-android-index.git"
+  },
+  "author": "zhuanghongji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhuanghongji/mp-android-index/issues"
+  },
+  "homepage": "https://github.com/zhuanghongji/mp-android-index#readme",
+  "dependencies": {
+    "@types/node": "^13.1.4",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.4"
+  }
+}
