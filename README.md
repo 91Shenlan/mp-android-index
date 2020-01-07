@@ -2202,30 +2202,31 @@
 
 ### 啰嗦几句
 
-* 前期本仓库的文章索引都是个人手动通过微信 PC 端复制的，这样比较麻烦，所以更新频率慢。
-* 直到 2020 年，突然想起鸿洋 [wanandroid.com](https://www.wanandroid.com/) 有公众号的开发 API。
-* 所以就写了个 NodeJs 脚本将文章的链接 request 下来并生成对应文件，方便了很多，也因此新增了部分「谷歌开发者」的文章索引（因为GitHub README 文件长度受限，所以只加了部分）。
-* 后来想想，本 README 文件已经涵盖了 "2015 年 - 2019 年" Android 移动端很多优秀文章，2020 年及之后的文章大多数是修修补补改改的工作。
-* 已经满足大多数人的知识需要，所以本 Repo 短期内应该不会再更新。
+* 前期本 Repo 中的文章索引都是个人手动通过微信 PC 端进行复制添加，比较麻烦，更新频率慢。
+* 后来到了 2020 年，突然想起鸿洋 [wanandroid.com](https://www.wanandroid.com/) 有公众号的开发 API。
+* 所以就写了个 NodeJs 脚本，将文章的链接 request 下来并生成对应格式文件，方便了很多。
+* 因此新增了「谷歌开发者」"2018年 - 2019年" 的文章索引（因 GitHub README 文件长度受限，故略其它年度）。
+* 本 README 文件已经聚集了 "2015年 - 2019年" 间 Android 端很多优秀文章的索引，理论上 2020 年及之后的文章都是在该基础上的修修补补改改。
+* 这已经满足大多数人的查看需要，所以短期内本 Repo 不作更新。
 
 ### 脚本说明
 
-脚本核心文件：
+I. 脚本核心文件：
 
 ```
 /srcipts/index.ts
 ```
 
-执行脚本步骤：
+II. 执行脚本步骤：
 
-```shell 
+```
 $ clone git@github.com:zhuanghongji/mp-android-index.git
 $ cd mp-android-index
 $ npm install 
 $ npm run tool
 ```
 
-执行脚本后会生成下述文件：
+III. 执行脚本后会生成下述文件：
 
 ```
 /temp/408_HONG_YANG.md
@@ -2237,6 +2238,14 @@ $ npm run tool
 
 ### 特别声明
 
+
+```
 本 Repo 文章索引均引自他人公众号。  
-如有侵权，提个 Issue 让我知晓并作对应处理。
+如有侵权，提个 issue 让我知晓并作相应处理。
+```
+
+```
+Stay hungry, Stay foolish.
+```
+
 
